@@ -4,6 +4,6 @@
 
 @layer components{
   .card {
-    @apply bg-[#303134] grid place-content-center rounded-md text-white font-bold border border-[#D7DAE9] text-4xl;
+    @apply bg-[#303134] grid place-content-center rounded-md text-white font-bold border-2 border-[#D7DAE9] text-4xl;
   }
 }
