@@ -19,7 +19,7 @@ function MainSite() {
           <img
             src="https://www.telefonica.com/es/wp-content/uploads/sites/4/2022/06/Imagen1.jpg?w=1224&h=673&crop=1"
             alt="testimage"
-            className="h-auto max-w-lg rounded-lg"
+            className="h-20 rounded-lg"
           />
         </div>
         <div></div>

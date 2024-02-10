@@ -18,6 +18,14 @@ function SideMenu() {
          <li><a href="" className="text-white text-[12px] p-2 hover:text-[#FFFF00] font-bold">Proofs</a></li>
 
          <li><a href="" className="text-white text-[12px] p-2 hover:text-[#FFFF00] font-bold">Protocols</a></li>
+
+         <li><a href="" className="text-white text-[12px] p-2 hover:text-[#FFFF00] font-bold">Protocols</a></li>
+
+         <li><a href="" className="text-white text-[12px] p-2 hover:text-[#FFFF00] font-bold">Protocols</a></li>
+
+         <li><a href="" className="text-white text-[12px] p-2 hover:text-[#FFFF00] font-bold">Protocols</a></li>
+
+         <li><a href="" className="text-white text-[12px] p-2 hover:text-[#FFFF00] font-bold">Protocols</a></li>
         </ul>
       </div>
     </div>      

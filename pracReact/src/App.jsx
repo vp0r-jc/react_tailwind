@@ -1,6 +1,7 @@
 import React from "react"
 import SideMenu from './components/SideMenu'
 import MainSite from './components/MainSite'
+import Table from './components/Table'
 
 function App() {
  
@@ -11,8 +12,7 @@ function App() {
         <SideMenu />
         <MainSite />
         <div className="card">3</div>
-        <div className="card col-[1/4]">4</div>
-        <div className="card col-[4/7]">5</div>
+        <Table />
      </div>
     </>
   )
