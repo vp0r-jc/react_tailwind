@@ -8,13 +8,9 @@ import Table from './components/Table';
 function App() {
   const [id,setId] = useState(0)
 
-  function handleClick(){
-    if(id === 0){
-      setId(1)
-    }
-    else{
-      setId(0)
-    }
+  function handleClick(id){
+    console.log(id)
+    setId(id)
   }
   return (
     <>
@@ -23,6 +19,7 @@ function App() {
         <MainSite id={id}/>
         <div className="card">3</div>
         <Table />
+        <div className="card grid col-[4/7]">5</div>
      </div>
     </>
   )

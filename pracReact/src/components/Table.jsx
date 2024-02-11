@@ -3,25 +3,25 @@ import React from 'react'
 function Table() {
   return (
     <>
-    <div className="grid col-[1/7] bg-[#303134]  border-[#D7DAE9] rounded-md border font-mono">
+    <div className="grid col-[1/4] bg-[#303134]  border-[#D7DAE9] rounded-md border font-mono">
     <div className="flex justify-center bg-[#D7DAE9] self-start overflow-hidden">
-          <h1>Crypto Tracker</h1>
+          <h1>.::compendium::.</h1>
         </div>
     <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
     <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
         <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>
                 <th scope="col" className="px-6 py-3">
-                    Product name
+                    Topic
                 </th>
                 <th scope="col" className="px-6 py-3">
-                    Color
+                    Subject
                 </th>
                 <th scope="col" className="px-6 py-3">
                     Category
                 </th>
                 <th scope="col" className="px-6 py-3">
-                    Price
+                    Rareness
                 </th>
                 <th scope="col" className="px-6 py-3">
                     <span className="sr-only">Edit</span>
