@@ -1,5 +1,6 @@
-
-function SideMenu() {
+function SideMenu({id, handleClick}) {
+  
+  
   return (
     <div className="bg-[#303134] grid self-start overflow-hidden rounded-md border border-[#D7DAE9] font-mono">
       <div className="flex justify-center bg-[#D7DAE9] ">
@@ -11,21 +12,16 @@ function SideMenu() {
       </div>
       <div>
         <ul className="list-none">
-         <li><a href="" className="text-white text-[12px] p-2 hover:text-[#FFFF00] font-bold">Blockchain</a></li>
-
-         <li><a href="" className="text-white text-[12px] p-2 hover:text-[#FFFF00] font-bold">Bitcoin</a></li>
-
-         <li><a href="" className="text-white text-[12px] p-2 hover:text-[#FFFF00] font-bold">Proofs</a></li>
-
-         <li><a href="" className="text-white text-[12px] p-2 hover:text-[#FFFF00] font-bold">Protocols</a></li>
-
-         <li><a href="" className="text-white text-[12px] p-2 hover:text-[#FFFF00] font-bold">Protocols</a></li>
-
-         <li><a href="" className="text-white text-[12px] p-2 hover:text-[#FFFF00] font-bold">Protocols</a></li>
-
-         <li><a href="" className="text-white text-[12px] p-2 hover:text-[#FFFF00] font-bold">Protocols</a></li>
-
-         <li><a href="" className="text-white text-[12px] p-2 hover:text-[#FFFF00] font-bold">Protocols</a></li>
+          <li>
+            <button onClick={() => handleClick(0)}>Blockchain</button>
+          </li>
+          <li>
+            <button>Bitcoin</button>
+          </li>
+          <li>
+            <button onClick={()=> handleClick(1)}>Nombre</button>
+            <h4>name:{id}</h4>
+          </li>
         </ul>
       </div>
     </div>      

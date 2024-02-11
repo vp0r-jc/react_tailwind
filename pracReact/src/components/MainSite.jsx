@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { content as data } from "../assets/content";
 
-function MainSite() {
+function MainSite({id}) {
   const [content, setContent] = useState([]);
 
   useEffect(() => {
@@ -25,13 +25,14 @@ function MainSite() {
         <div></div>
         <div>
           {content
-            .filter((content) => content.id === 1)
+            .filter((content) => content.id === id)
             .map((content) => (
               <div key={content.id} className="text-white">
                 <h1>{content.title}</h1>
                 <p>{content.cont}</p>
               </div>
             ))}
+            <h4>name:{id}</h4>
         </div>
       </div>
     </>
